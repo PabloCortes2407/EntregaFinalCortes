@@ -45,102 +45,112 @@
 }
 
 
-.H--1--2 
-{
-    display: flex; 
-    margin-left: 0px;
-    margin-top: 20px;
-    justify-content: center;
+.amanecer--h3 { 
+    grid-area: H1;
 }
 
 .sofocles--h3 {
-    margin-left: 115px;
-    margin-top: 20px;
+    grid-area: H2;
 }
 
-.H--3--4 {
-    display: flex; 
-    margin-left: 0px;
-    margin-top: 20px;
-    justify-content: center;
+.neron--h3 {
+    grid-area: H3;
 }
 
 .rev--h3 {
-    margin-left: 155px;
-    margin-top: 20px;
+    grid-area: h4;
 }
 
-.amanecer__sofocles--P {
-    display: flex;
-    justify-content: center;
+.encuentro--1--2 {
+    display: grid;
+    grid-column: 50% 50%;
+    grid-template-areas: 
+    "H1 H2"
+    "img1 img2"
+    "P1 P2"
+    "btn1 btn2";
 }
+
 .amanecer--P {
     block-size: 450px; 
     width: 200px; 
     border: solid black 1px; 
-    margin-left: 5px;
+    grid-area: P1;
 }
 
 .sofocles--P {
-    block-size: 350px; 
+    block-size: 450px; 
     width: 200px; 
-    border: solid black 1px; 
-    margin-left: 195px;
-}
-
-
-.neron__rev--P {
-    display: flex;
-    justify-content: center;
-}
-
-.neron--P {
-    block-size: 300px; 
-    width: 200px; 
-    border: solid black 1px; 
-    margin-left: 5px;
-}
-
-.rev--P {
-    block-size: 500px; 
-    width: 200px; 
-    border: solid black 1px; 
-    margin-left: 195px;
-}
-
-.imagen--1--2 {
-    display: flex;
-    justify-content: center;
+    border: solid black 1px;
+    grid-area: P2;
 }
 
 .amanecer {
     width: 200px; 
     height: 200px; 
-    margin-right: 100px;
+    grid-area: img1;
 }
 
 .sofocles {
     width: 200px; 
     height: 200px; 
-    margin-left: 100px;
+    grid-area: img2;
 }
 
+.SOFOCLES {
+position: relative;
+left: 30%;
+}
 
-.imagen--3--4 {
-    display: flex; 
-    justify-content: center;
+.AMANECER {
+    position: relative;
+    left: 40%;
+}
+
+.NERON {
+    position: relative;
+    left: 40%;
+}
+
+.REV {
+    position: relative;
+    left: 30%;
+}
+
+.encuentro--3--4 {
+    display: grid;
+    grid-column: 50% 50%;
+    grid-template-areas:
+    "H3 H4"
+    "img3 img4"
+    "P3 P4"
+    "btn3 btn4";
+}
+
+.neron--P {
+    block-size: 450px; 
+    width: 200px; 
+    border: solid black 1px; 
+    grid-area: P3;
+}
+
+.rev--P {
+    block-size: 450px; 
+    width: 200px; 
+    border: solid black 1px; 
+   grid-area: P4;
 }
 
 .neron {
         width: 200px; 
-        height: 200px; 
-        margin-right: 100px;
+        height: 200px;
+      grid-area: img3;
     }
 
 .rev {
         width: 200px; 
-        height: 200px; 
-        margin-left: 100px;
+        height: 200px;
+    grid-area: img4;
     }
 
 .H1--H3 {
@@ -161,7 +171,7 @@
     text-align: center;
 }
 
-.boton--1--3 {
+.boton--1 {
     border: none;
      min-width: 100px;
      height: 50px;
@@ -175,15 +185,15 @@
 align-items: center;
 background: blue;
 text-decoration: none;
-margin-left: 660px;
+grid-area: btn1;
 }
 
-.boton--1--3:hover {
+.boton--1:hover {
     background: darkblue;
     text-decoration: underline;
 }
 
-.boton--2--4 {
+.boton--2 {
     border: none;
      min-width: 100px;
      height: 50px;
@@ -197,81 +207,58 @@ margin-left: 660px;
 align-items: center;
 background: blue;
 text-decoration: none;
-margin-left: 240px;
+grid-area: btn2;
 }
 
-.boton--2--4:hover {
+.boton--2:hover {
     background: darkblue;
     text-decoration: underline;
 }
 
-@media screen and (max-width: 992px) {
-    .li {
-width: 50%;
-    }
-
-    .amanecer {
-margin-left: 50px;
-display: block;
-    }
-
-    .sofocles {
-        margin-right: 50px;
-        display: block;
-    }
-
-    .neron {
-        margin-left: 50px;
-        display: block;
-    }
-    .rev {
-        margin-right: 50px;
-        display: block;
-    }
-
-    .amanecer--P {
-    margin-left: 50px;
-    display: block;
-    }
-
-    .sofocles--P {
-        margin-right: 50px;
-        display: block;
-    }
-
-    .neron--P {
-        margin-left: 50px;
-        display: block;
-    }
-
-    .rev--P {
-        margin-right: 50px;
-        display: block;
-    }
-
-    .boton--1--3 {
-margin-left: 100px;
-justify-content: center;
-    }
-
-    .boton--2--4 {
-margin-left: 230px;
-justify-content: center;
-    }
-
-    .nuestro__lugar {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
+.boton--3 {
+    border: none;
+     min-width: 100px;
+     height: 50px;
+     padding: 0px 30px;
+     background-color: rgb(0, 0, 0);
+     color: white;
+     display: inline-block;
+     border-radius: 100px;
+    display: inline-flex;
+    justify-content: space-between;    
+align-items: center;
+background: blue;
+text-decoration: none;
+grid-area: btn3;
 }
 
-@media screen and (max-width: 600px) {
-    .li {
-    width: 100%;
-    }
-   
-   
+.boton--3:hover {
+    background: darkblue;
+    text-decoration: underline;
 }
+
+.boton--4 {
+    border: none;
+     min-width: 100px;
+     height: 50px;
+     padding: 0px 30px;
+     background-color: rgb(0, 0, 0);
+     color: white;
+     display: inline-block;
+     border-radius: 100px;
+    display: inline-flex;
+    justify-content: space-between;    
+align-items: center;
+background: blue;
+text-decoration: none;
+grid-area: btn4;
+}
+
+.boton--4:hover {
+    background: darkblue;
+    text-decoration: underline;
+}
+
 
 .sofocles--p--img--pag {
 display: flex;
@@ -289,22 +276,22 @@ display: flex;
     display: flex;
 }
 
-.rev--pag {
+.rev--img--pag {
     width: 50%; 
     height: 650px;
 }
 
-.amanecer--pag {
+.amanecer--img--pag {
     width: 50%; 
     height: 650px;
 }
 
-.sofocles--pag {
+.sofocles--img--pag {
     width: 50%;
     height: 650px;
 }
 
-.neron--pag {
+.neron--img--pag {
     width: 50%; 
     height: 650px;
 }
@@ -313,8 +300,8 @@ display: flex;
 text-align: center;
 font-size: 30px;
 font-family: sans-serif;
-margin-right: 100px;
-margin-left: 100px;
+margin-right: 50px;
+margin-left: 50px;
 }
 
 .sofocles--P--pag {
@@ -366,4 +353,217 @@ font-size: medium;
 .titulo--pag {
     text-align: center;
     font-size: 40px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .li {
+width: 50%;
+    }
+
+.rev--h3 {
+    margin-left: 50px;
+}
+
+.sofocles--h3 {
+    margin-left: 50px;
+}
+
+    .amanecer {
+margin-right: 50px;
+margin-left: 0px;
+    }
+
+    .sofocles {
+        margin-left: 50px;
+margin-right: 0px;
+    }
+
+    .neron {
+        margin-right: 50px;
+margin-left: 0px;
+    }
+    .rev {
+        margin-left: 50px;
+margin-right: 0px;
+    }
+
+    .amanecer--P {
+    margin-right: 50px;
+margin-left: 0px;
+    }
+
+    .sofocles--P {
+        margin-left: 50px;
+margin-right: 0px;
+    }
+
+    .neron--P {
+        margin-right: 50px;
+        margin-left: 0px;
+    }
+
+    .rev--P {
+        margin-left: 50px;
+margin-right: 0px;
+    }
+
+    .boton--2 {
+        margin-left: 50px;
+    } 
+
+    .boton--4 {
+        margin-left: 50px;
+    }
+
+    .nuestro__lugar {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .rev--img--pag {
+        width: 100px;
+        height: 100px;
+    }
+
+    .neron--img--pag {
+        width: 100px;
+        height: 100px;
+    }
+
+    .sofocles--img--pag {
+        width: 100px;
+        height: 100px;
+    }
+
+    .amanecer--img--pag {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .li {
+    width: 100%;
+    }
+   
+    
+.rev--h3 {
+justify-content: center;
+}
+
+.sofocles--h3 {
+    margin-left: 0px;
+}
+
+    .amanecer {
+margin-left: 0px;
+    }
+
+    .sofocles {
+        margin-left: 0px;
+    }
+
+    .neron {
+margin-left: 0px;
+    }
+    .rev {
+        margin-left: 0px;
+    }
+
+    .amanecer--P {
+margin-left: 0px;
+    }
+
+    .sofocles--P {
+        margin-left: 0px;
+    }
+
+    .neron--P {
+        margin-left: 0px;
+    }
+
+    .rev--P {
+        margin-left: 0px;
+    }
+
+    .boton--2 {
+        margin-left: 0px;
+    } 
+
+    .boton--4 {
+        margin-left: 0px;
+    }
+
+    .encuentro--1--2 {
+        display: grid;
+        grid-column: 50% 50%;
+        grid-template-areas:
+        "H1"
+        "img1"
+        "P1"
+        "btn1";
+    }
+
+    .encuentro--3--4 {
+        display: grid;
+        grid-column: 50% 50%;
+        grid-template-areas:
+        "H3"
+        "img3"
+        "P3"
+        "btn3";
+    }
+    
+.SOFOCLES {
+    position: relative;
+    left: 0%;
+    }
+    
+    .AMANECER {
+        position: relative;
+        left: 0%;
+    }
+    
+    .NERON {
+        position: relative;
+        left: 0%;
+    }
+    
+    .REV {
+        position: relative;
+        left: 0%;
+    }
+    
+    .amanecer--p--img--pag {
+        display: block;
+    }
+
+    .sofocles--p--img--pag {
+        display: block;
+    }
+
+    .neron--p--img--pag {
+        display: block;
+    }
+
+    .rev--p--img--pag {
+        display: block;
+    }
+
+    .amanecer--P--pag {
+        margin: 0px 30px;
+    }
+
+    .sofocles--P--pag {
+        margin: 0px 30px;
+    }
+
+    .neron--P--pag {
+        margin: 0px 30px;
+    }
+
+    .rev--P--pag {
+        margin: 0px 30px;
+    }
 }
