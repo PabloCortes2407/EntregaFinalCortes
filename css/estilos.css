@@ -453,86 +453,94 @@ justify-content: center;
 }
 
 .sofocles--h3 {
-    margin-left: 0px;
+    justify-content: center;
 }
 
     .amanecer {
-margin-left: 0px;
+justify-content: center;
     }
 
     .sofocles {
-        margin-left: 0px;
+        justify-content: center;
     }
 
     .neron {
-margin-left: 0px;
+justify-content: center;
     }
     .rev {
-        margin-left: 0px;
+        justify-content: center;
     }
 
     .amanecer--P {
-margin-left: 0px;
+justify-content: center;
     }
 
     .sofocles--P {
-        margin-left: 0px;
+        justify-content: center;
     }
 
     .neron--P {
-        margin-left: 0px;
+        justify-content: center;
     }
 
     .rev--P {
-        margin-left: 0px;
+        justify-content: center;
     }
 
     .boton--2 {
-        margin-left: 0px;
+        align-items: center;
     } 
 
     .boton--4 {
-        margin-left: 0px;
+        align-items: center;
     }
 
     .encuentro--1--2 {
         display: grid;
-        grid-column: 50% 50%;
+        grid-column: 100%;
         grid-template-areas:
         "H1"
         "img1"
         "P1"
-        "btn1";
+        "btn1"
+        "H2"
+        "img2"
+        "P2"
+        "btn2";
     }
 
     .encuentro--3--4 {
         display: grid;
-        grid-column: 50% 50%;
+        grid-column: 100%;
         grid-template-areas:
         "H3"
         "img3"
         "P3"
-        "btn3";
+        "btn3"
+        "H4"
+        "img4"
+        "P4"
+        "btn4";
     }
     
 .SOFOCLES {
     position: relative;
-    left: 0%;
+    left: 5%;
     }
     
     .AMANECER {
         position: relative;
-        left: 0%;
+        left: 20%;
     }
     
     .NERON {
         position: relative;
-        left: 0%;
+        left: 20%;
     }
     
     .REV {
         position: relative;
-        left: 0%;
+        left: 5%;
     }
     
     .amanecer--p--img--pag {
