@@ -160,7 +160,7 @@ left: 30%;
 }
 
 .nuestro__lugar {
-    text-align: center; 
+    text-align: justify; 
     position: relative;
     margin-left: 150px;
     margin-right: 150px;
@@ -355,11 +355,65 @@ font-size: medium;
     font-size: 40px;
 }
 
+.h1--quien--soy {
+    display: block;
+}
+
+.quien--soy {
+    display: flex;
+}
+
+.quien--soy--img {
+    width: 40%;
+    height: 650px;
+}
+
+.quien--soy--h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.quien--soy--p {
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.mis--trabajos--h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.mis--trabajos--p {    
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-right: 100px;
+    margin-left: 100px;
+}
 
 @media screen and (max-width: 992px) {
     .li {
 width: 50%;
     }
+
+.AMANECER {
+    left: 70px;
+}
+
+.SOFOCLES {
+    position: unset;
+}
+
+.REV {
+    position: unset;
+}
+
+.NERON {
+    left: 70px;
+}
 
 .rev--h3 {
     margin-left: 50px;
@@ -419,6 +473,7 @@ margin-right: 0px;
     .nuestro__lugar {
         margin-left: 50px;
         margin-right: 50px;
+        text-align: center;
     }
 
     .rev--img--pag {
@@ -447,6 +502,9 @@ margin-right: 0px;
     width: 100%;
     }
    
+    .amanecer--h3 {
+     margin-right: 30px;
+    }
     
 .rev--h3 {
 justify-content: center;
@@ -524,23 +582,23 @@ justify-content: center;
     }
     
 .SOFOCLES {
-    position: relative;
-    left: 5%;
+    left: 50px;
+    position: unset;
     }
     
     .AMANECER {
         position: relative;
-        left: 20%;
+        left: 50px;
     }
     
     .NERON {
         position: relative;
-        left: 20%;
+        left: 50px;
     }
     
     .REV {
-        position: relative;
-        left: 5%;
+        left: 50px;
+        position: unset;
     }
     
     .amanecer--p--img--pag {
