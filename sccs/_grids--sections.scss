@@ -1,0 +1,63 @@
+
+.encuentro--1--2 {
+    display: grid;
+    grid-column: 50% 50%;
+    grid-template-areas: 
+    "H1 H2"
+    "img1 img2"
+    "P1 P2"
+    "btn1 btn2";
+}
+
+.SOFOCLES {
+position: relative;
+left: 30%;
+}
+
+.AMANECER {
+    position: relative;
+    left: 40%;
+}
+
+.NERON {
+    position: relative;
+    left: 40%;
+}
+
+.REV {
+    position: relative;
+    left: 30%;
+}
+
+.encuentro--3--4 {
+    display: grid;
+    grid-column: 50% 50%;
+    grid-template-areas:
+    "H3 H4"
+    "img3 img4"
+    "P3 P4"
+    "btn3 btn4";
+}
+
+.H1--H3 {
+    position: relative; 
+    text-align: center; 
+    font-size: calc($medida-predeterimnada/10);
+}
+
+
+.sofocles--p--img--pag {
+display: flex;
+}
+
+.rev--p--img--pag {
+display: flex;
+}
+
+.amanecer--p--img--pag {
+    display: flex;
+}
+
+.neron--p--img--pag {
+    display: flex;
+}

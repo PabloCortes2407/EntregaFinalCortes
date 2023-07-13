@@ -1,0 +1,53 @@
+.imagen__alfredo {
+    width: calc($medida-predeterimnada/2);
+    height: calc($medida-predeterimnada/2);
+    }
+
+    .amanecer {
+        width: $medida-predeterimnada; 
+        height: $medida-predeterimnada; 
+        grid-area: img1;
+    }
+    
+    .sofocles {
+        width: $medida-predeterimnada; 
+        height: $medida-predeterimnada; 
+        grid-area: img2;
+    }
+    
+.neron {
+    width: $medida-predeterimnada; 
+    height: $medida-predeterimnada;
+  grid-area: img3;
+}
+
+.rev {
+    width: $medida-predeterimnada; 
+    height: $medida-predeterimnada;
+grid-area: img4;
+}
+
+.rev--img--pag {
+    width: 50%; 
+    height: calc($medida-predeterimnada*3+50);
+}
+
+.amanecer--img--pag {
+    width: 50%; 
+    height: calc($medida-predeterimnada*3+50);
+}
+
+.sofocles--img--pag {
+    width: 50%;
+    height: calc($medida-predeterimnada*3+50);
+}
+
+.neron--img--pag {
+    width: 50%; 
+    height: calc($medida-predeterimnada*3+50);
+}
+
+.quien--soy--img {
+    width: 40%;
+    height: calc($medida-predeterimnada*3+50);
+}

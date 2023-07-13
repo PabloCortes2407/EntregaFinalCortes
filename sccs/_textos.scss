@@ -1,0 +1,140 @@
+
+.titulo {
+    font-size: calc($medida-predeterimnada/4-20);
+    text-align: center;
+}
+
+.subtitulo {
+    font-size: calc($medida-predeterimnada/4-20);
+    text-align: center;
+}
+
+
+.amanecer--h3 { 
+    grid-area: H1;
+}
+
+.sofocles--h3 {
+    grid-area: H2;
+}
+
+.neron--h3 {
+    grid-area: H3;
+}
+
+.rev--h3 {
+    grid-area: h4;
+}
+
+.amanecer--P {
+    block-size: calc($medida-predeterimnada*2+50);
+    width: $medida-predeterimnada; 
+    border: solid black 1px; 
+    grid-area: P1;
+}
+
+.sofocles--P {
+    block-size: calc($medida-predeterimnada*2+50);
+    width: $medida-predeterimnada; 
+    border: solid black 1px;
+    grid-area: P2;
+}
+
+
+.neron--P {
+    block-size: calc($medida-predeterimnada*2+50); 
+    width: $medida-predeterimnada; 
+    border: solid black 1px; 
+    grid-area: P3;
+}
+
+.rev--P {
+    block-size: calc($medida-predeterimnada*2+50);
+    width: $medida-predeterimnada; 
+    border: solid black 1px; 
+   grid-area: P4;
+}
+
+.nuestro__lugar {
+    text-align: justify; 
+    position: relative;
+    margin-left: calc($medida-predeterimnada/2+50);
+    margin-right: calc($medida-predeterimnada/2+50);
+    font-size:  calc($medida-predeterimnada/10+2);
+}
+
+.amistades--p--h {
+    text-align: center;
+}
+
+.amanecer--P--pag {
+    text-align: center;
+    font-size: calc($medida-predeterimnada/4-20);
+    font-family: sans-serif;
+    margin-right: calc($medida-predeterimnada/4);
+    margin-left: calc($medida-predeterimnada/4);
+    }
+    
+    .sofocles--P--pag {
+        text-align: center;
+        font-size: calc($medida-predeterimnada/4-20);
+        font-family: sans-serif;
+        margin-right: calc($medida-predeterimnada/2);
+        margin-left: calc($medida-predeterimnada/2);
+    }
+    
+    .neron--P--pag {
+        text-align: center;
+        font-size: calc($medida-predeterimnada/4-20);
+        font-family: sans-serif;
+        margin-right: calc($medida-predeterimnada/2);
+        margin-left: calc($medida-predeterimnada/2);
+    }
+    
+    .rev--P--pag {
+        text-align: center;
+        font-size: calc($medida-predeterimnada/4-20);
+        font-family: sans-serif;
+        margin-right: calc($medida-predeterimnada/2);
+        margin-left: calc($medida-predeterimnada/2);
+    }
+    
+.titulo--pag {
+    text-align: center;
+    font-size: calc($medida-predeterimnada/4-10);
+}
+
+.h1--quien--soy {
+    display: block;
+}
+
+.quien--soy {
+    display: flex;
+}
+
+
+.quien--soy--h1 {
+    text-align: center;
+    font-size: calc($medida-predeterimnada/4-10);
+}
+
+.quien--soy--p {
+    text-align: center;
+    font-size: calc($medida-predeterimnada/4-10);
+    font-family: sans-serif;
+    margin-right: calc($medida-predeterimnada/2);
+    margin-left: calc($medida-predeterimnada/2);
+}
+
+.mis--trabajos--h1 {
+    text-align: center;
+    font-size: calc($medida-predeterimnada/4-10);
+}
+
+.mis--trabajos--p {    
+    text-align: center;
+    font-size: calc($medida-predeterimnada/4-20);
+    font-family: sans-serif;
+    margin-right: calc($medida-predeterimnada/2);
+    margin-left: calc($medida-predeterimnada/2);
+}

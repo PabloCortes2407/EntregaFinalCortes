@@ -1,0 +1,241 @@
+
+
+@media screen and (max-width: 992px) {
+    .li {
+width: 50%;
+    }
+
+.AMANECER {
+    left: calc($medida-predeterimnada/4+20);
+}
+
+.SOFOCLES {
+    position: unset;
+}
+
+.REV {
+    position: unset;
+}
+
+.NERON {
+    left: calc($medida-predeterimnada/4+20);
+}
+
+.rev--h3 {
+    margin-left: calc($medida-predeterimnada/4);
+}
+
+.sofocles--h3 {
+    margin-left: calc($medida-predeterimnada/4);
+}
+
+    .amanecer {
+margin-right: calc($medida-predeterimnada/4);
+margin-left: 0px;
+    }
+
+    .sofocles {
+        margin-left: calc($medida-predeterimnada/4);
+margin-right: 0px;
+    }
+
+    .neron {
+        margin-right: calc($medida-predeterimnada/4);
+margin-left: 0px;
+    }
+    .rev {
+        margin-left: calc($medida-predeterimnada/4);
+margin-right: 0px;
+    }
+
+    .amanecer--P {
+    margin-right: calc($medida-predeterimnada/4);
+margin-left: 0px;
+    }
+
+    .sofocles--P {
+        margin-left: calc($medida-predeterimnada/4);
+margin-right: 0px;
+    }
+
+    .neron--P {
+        margin-right: calc($medida-predeterimnada/4);
+        margin-left: 0px;
+    }
+
+    .rev--P {
+        margin-left: calc($medida-predeterimnada/4);
+margin-right: 0px;
+    }
+
+    .boton--2 {
+        margin-left: calc($medida-predeterimnada/4);
+    } 
+
+    .boton--4 {
+        margin-left: calc($medida-predeterimnada/4);
+    }
+
+    .nuestro__lugar {
+        margin-left: calc($medida-predeterimnada/4);
+        margin-right: calc($medida-predeterimnada/4);
+        text-align: center;
+    }
+
+    .rev--img--pag {
+        width: calc($medida-predeterimnada/2);
+        height: calc($medida-predeterimnada/2);
+    }
+
+    .neron--img--pag {
+        width: calc($medida-predeterimnada/2);
+        height: calc($medida-predeterimnada/2);
+    }
+
+    .sofocles--img--pag {
+        width: calc($medida-predeterimnada/2);
+        height: calc($medida-predeterimnada/2);
+    }
+
+    .amanecer--img--pag {
+        width: calc($medida-predeterimnada/2);
+        height: calc($medida-predeterimnada/2);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .li {
+    width: 100%;
+    }
+   
+    .amanecer--h3 {
+     margin-right: calc($medida-predeterimnada/4-20);
+    }
+    
+.rev--h3 {
+justify-content: center;
+}
+
+.sofocles--h3 {
+    justify-content: center;
+}
+
+    .amanecer {
+justify-content: center;
+    }
+
+    .sofocles {
+        justify-content: center;
+    }
+
+    .neron {
+justify-content: center;
+    }
+    .rev {
+        justify-content: center;
+    }
+
+    .amanecer--P {
+justify-content: center;
+    }
+
+    .sofocles--P {
+        justify-content: center;
+    }
+
+    .neron--P {
+        justify-content: center;
+    }
+
+    .rev--P {
+        justify-content: center;
+    }
+
+    .boton--2 {
+        align-items: center;
+    } 
+
+    .boton--4 {
+        align-items: center;
+    }
+
+    .encuentro--1--2 {
+        display: grid;
+        grid-column: 100%;
+        grid-template-areas:
+        "H1"
+        "img1"
+        "P1"
+        "btn1"
+        "H2"
+        "img2"
+        "P2"
+        "btn2";
+    }
+
+    .encuentro--3--4 {
+        display: grid;
+        grid-column: 100%;
+        grid-template-areas:
+        "H3"
+        "img3"
+        "P3"
+        "btn3"
+        "H4"
+        "img4"
+        "P4"
+        "btn4";
+    }
+    
+.SOFOCLES {
+    left: calc($medida-predeterimnada/4);
+    position: unset;
+    }
+    
+    .AMANECER {
+        position: relative;
+        left: calc($medida-predeterimnada/4);
+    }
+    
+    .NERON {
+        position: relative;
+        left: calc($medida-predeterimnada/4);
+    }
+    
+    .REV {
+        left: calc($medida-predeterimnada/4);
+        position: unset;
+    }
+    
+    .amanecer--p--img--pag {
+        display: block;
+    }
+
+    .sofocles--p--img--pag {
+        display: block;
+    }
+
+    .neron--p--img--pag {
+        display: block;
+    }
+
+    .rev--p--img--pag {
+        display: block;
+    }
+
+    .amanecer--P--pag {
+        margin: 0px calc($medida-predeterimnada/4-20);
+    }
+
+    .sofocles--P--pag {
+        margin: 0px calc($medida-predeterimnada/4-20);
+    }
+
+    .neron--P--pag {
+        margin: 0px calc($medida-predeterimnada/4-20);
+    }
+
+    .rev--P--pag {
+        margin: 0px calc($medida-predeterimnada/4-20);
+    }
+}

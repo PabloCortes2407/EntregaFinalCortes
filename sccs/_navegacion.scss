@@ -1,0 +1,30 @@
+
+.li {
+    position: relative; 
+    width: 25%; 
+    display: inline-block;
+}
+
+.paginas__ul{
+    font-size: 0; 
+    list-style: none; 
+    padding: 0;
+}
+
+.paginas {
+    font-size: 14px; 
+    text-align: center; 
+    display: block;
+    color: rgb(255, 255, 255); 
+    background-color: skyblue; 
+    padding: calc($medida-predeterimnada/20); 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-family: sans-serif;
+} 
+
+.paginas:hover {
+    background-color: blue;
+    text-decoration: underline;
+}
+

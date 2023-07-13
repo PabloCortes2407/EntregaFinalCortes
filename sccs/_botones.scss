@@ -1,0 +1,110 @@
+
+.boton--1 {
+    border: none;
+     min-width: calc($medida-predeterimnada/2);
+     height: calc($medida-predeterimnada/4);
+     padding: 0px calc($medida-predeterimnada/4-20);
+     background-color: rgb(0, 0, 0);
+     color: white;
+     display: inline-block;
+     border-radius: calc($medida-predeterimnada/2);
+    display: inline-flex;
+    justify-content: space-between;    
+align-items: center;
+background: blue;
+text-decoration: none;
+grid-area: btn1;
+}
+
+.boton--1:hover {
+    background: darkblue;
+    text-decoration: underline;
+}
+
+.boton--2 {
+    border: none;
+     min-width: calc($medida-predeterimnada/2);
+     height: calc($medida-predeterimnada/4);
+     padding: 0px calc($medida-predeterimnada/4-20);
+     background-color: rgb(0, 0, 0);
+     color: white;
+     display: inline-block;
+     border-radius: calc($medida-predeterimnada/2);
+    display: inline-flex;
+    justify-content: space-between;    
+align-items: center;
+background: blue;
+text-decoration: none;
+grid-area: btn2;
+}
+
+.boton--2:hover {
+    background: darkblue;
+    text-decoration: underline;
+}
+
+.boton--3 {
+    border: none;
+     min-width: calc($medida-predeterimnada/2);
+     height: calc($medida-predeterimnada/4);
+     padding: 0px calc($medida-predeterimnada/4-20);
+     background-color: rgb(0, 0, 0);
+     color: white;
+     display: inline-block;
+     border-radius: calc($medida-predeterimnada/2);
+    display: inline-flex;
+    justify-content: space-between;    
+align-items: center;
+background: blue;
+text-decoration: none;
+grid-area: btn3;
+}
+
+.boton--3:hover {
+    background: darkblue;
+    text-decoration: underline;
+}
+
+.boton--4 {
+    border: none;
+     min-width: calc($medida-predeterimnada/2);
+     height: calc($medida-predeterimnada/4);
+     padding: 0px calc($medida-predeterimnada/4-20);
+     background-color: rgb(0, 0, 0);
+     color: white;
+     display: inline-block;
+     border-radius: calc($medida-predeterimnada/2);
+    display: inline-flex;
+    justify-content: space-between;    
+align-items: center;
+background: blue;
+text-decoration: none;
+grid-area: btn4;
+}
+
+.boton--4:hover {
+    background: darkblue;
+    text-decoration: underline;
+}
+
+.boton--contacto {
+    border: none;
+    min-width: calc($medida-predeterimnada/2);
+    height: calc($medida-predeterimnada/4);
+    padding: 0px  calc($medida-predeterimnada/4-20);
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: inline-block;
+    border-radius: calc($medida-predeterimnada/2);
+   display: inline-flex;
+   justify-content: space-between;    
+align-items: center;
+background: green;
+text-decoration: none;
+position: relative;
+font-size: medium;
+}
+
+.boton--contacto:hover {
+ background-color: darkgreen;
+}
