@@ -1,0 +1,583 @@
+.imagen__alfredo {
+  width: 100px;
+  height: 100px;
+}
+
+.amanecer {
+  width: 200px;
+  height: 200px;
+  grid-area: img1;
+}
+
+.sofocles {
+  width: 200px;
+  height: 200px;
+  grid-area: img2;
+}
+
+.neron {
+  width: 200px;
+  height: 200px;
+  grid-area: img3;
+}
+
+.rev {
+  width: 200px;
+  height: 200px;
+  grid-area: img4;
+}
+
+.rev--img--pag {
+  width: 50%;
+  height: 650px;
+}
+
+.amanecer--img--pag {
+  width: 50%;
+  height: 650px;
+}
+
+.sofocles--img--pag {
+  width: 50%;
+  height: 650px;
+}
+
+.neron--img--pag {
+  width: 50%;
+  height: 650px;
+}
+
+.quien--soy--img {
+  width: 40%;
+  height: 650px;
+}
+
+.li {
+  position: relative;
+  width: 25%;
+  display: inline-block;
+}
+
+.paginas__ul {
+  font-size: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.paginas {
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  color: rgb(255, 255, 255);
+  background-color: skyblue;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+.paginas:hover {
+  background-color: blue;
+  text-decoration: underline;
+}
+
+.titulo {
+  font-size: 30px;
+  text-align: center;
+}
+
+.subtitulo {
+  font-size: 30px;
+  text-align: center;
+}
+
+.amanecer--h3 {
+  grid-area: H1;
+}
+
+.sofocles--h3 {
+  grid-area: H2;
+}
+
+.neron--h3 {
+  grid-area: H3;
+}
+
+.rev--h3 {
+  grid-area: h4;
+}
+
+.amanecer--P {
+  block-size: 450px;
+  width: 200px;
+  border: solid black 1px;
+  grid-area: P1;
+}
+
+.sofocles--P {
+  block-size: 450px;
+  width: 200px;
+  border: solid black 1px;
+  grid-area: P2;
+}
+
+.neron--P {
+  block-size: 450px;
+  width: 200px;
+  border: solid black 1px;
+  grid-area: P3;
+}
+
+.rev--P {
+  block-size: 450px;
+  width: 200px;
+  border: solid black 1px;
+  grid-area: P4;
+}
+
+.nuestro__lugar {
+  text-align: justify;
+  position: relative;
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: 22px;
+}
+
+.amistades--p--h {
+  text-align: center;
+}
+
+.amanecer--P--pag {
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-right: 50;
+  margin-left: 50;
+}
+
+.sofocles--P--pag {
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.neron--P--pag {
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.rev--P--pag {
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.titulo--pag {
+  text-align: center;
+  font-size: 40px;
+}
+
+.h1--quien--soy {
+  display: block;
+}
+
+.quien--soy {
+  display: flex;
+}
+
+.quien--soy--h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.quien--soy--p {
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  margin-right: 100;
+  margin-left: 100;
+}
+
+.mis--trabajos--h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.mis--trabajos--p {
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.boton--1 {
+  border: none;
+  min-width: 100px;
+  height: 50px;
+  padding: 0px 30px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: inline-block;
+  border-radius: 100px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background: blue;
+  text-decoration: none;
+  grid-area: btn1;
+}
+
+.boton--1:hover {
+  background: darkblue;
+  text-decoration: underline;
+}
+
+.boton--2 {
+  border: none;
+  min-width: 100px;
+  height: 50px;
+  padding: 0px 30px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: inline-block;
+  border-radius: 100px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background: blue;
+  text-decoration: none;
+  grid-area: btn2;
+}
+
+.boton--2:hover {
+  background: darkblue;
+  text-decoration: underline;
+}
+
+.boton--3 {
+  border: none;
+  min-width: 100px;
+  height: 50px;
+  padding: 0px 30px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: inline-block;
+  border-radius: 100px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background: blue;
+  text-decoration: none;
+  grid-area: btn3;
+}
+
+.boton--3:hover {
+  background: darkblue;
+  text-decoration: underline;
+}
+
+.boton--4 {
+  border: none;
+  min-width: 100px;
+  height: 50px;
+  padding: 0px 30px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: inline-block;
+  border-radius: 100px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background: blue;
+  text-decoration: none;
+  grid-area: btn4;
+}
+
+.boton--4:hover {
+  background: darkblue;
+  text-decoration: underline;
+}
+
+.boton--contacto {
+  border: none;
+  min-width: 100px;
+  height: 50px;
+  padding: 0px 30px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: inline-block;
+  border-radius: 100px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background: green;
+  text-decoration: none;
+  position: relative;
+  font-size: medium;
+}
+
+.boton--contacto:hover {
+  background-color: darkgreen;
+}
+
+.encuentro--1--2 {
+  display: grid;
+  grid-column: 50% 50%;
+  grid-template-areas: "H1 H2" "img1 img2" "P1 P2" "btn1 btn2";
+}
+
+.SOFOCLES {
+  position: relative;
+  left: 30%;
+}
+
+.AMANECER {
+  position: relative;
+  left: 40%;
+}
+
+.NERON {
+  position: relative;
+  left: 40%;
+}
+
+.REV {
+  position: relative;
+  left: 30%;
+}
+
+.encuentro--3--4 {
+  display: grid;
+  grid-column: 50% 50%;
+  grid-template-areas: "H3 H4" "img3 img4" "P3 P4" "btn3 btn4";
+}
+
+.H1--H3 {
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+}
+
+.sofocles--p--img--pag {
+  display: flex;
+}
+
+.rev--p--img--pag {
+  display: flex;
+}
+
+.amanecer--p--img--pag {
+  display: flex;
+}
+
+.neron--p--img--pag {
+  display: flex;
+}
+
+@media screen and (max-width: 992px) {
+  .li {
+    width: 50%;
+  }
+  .AMANECER {
+    left: 70px;
+  }
+  .SOFOCLES {
+    position: unset;
+  }
+  .REV {
+    position: unset;
+  }
+  .NERON {
+    left: 70px;
+  }
+  .rev--h3 {
+    margin-left: 50px;
+  }
+  .sofocles--h3 {
+    margin-left: 50px;
+  }
+  .amanecer {
+    margin-right: 50px;
+    margin-left: 0px;
+  }
+  .sofocles {
+    margin-left: 50px;
+    margin-right: 0px;
+  }
+  .neron {
+    margin-right: 50px;
+    margin-left: 0px;
+  }
+  .rev {
+    margin-left: 50px;
+    margin-right: 0px;
+  }
+  .amanecer--P {
+    margin-right: 50px;
+    margin-left: 0px;
+  }
+  .sofocles--P {
+    margin-left: 50px;
+    margin-right: 0px;
+  }
+  .neron--P {
+    margin-right: 50px;
+    margin-left: 0px;
+  }
+  .rev--P {
+    margin-left: 50px;
+    margin-right: 0px;
+  }
+  .boton--2 {
+    margin-left: 50px;
+  }
+  .boton--4 {
+    margin-left: 50px;
+  }
+  .nuestro__lugar {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+  }
+  .rev--img--pag {
+    width: 100px;
+    height: 100px;
+  }
+  .neron--img--pag {
+    width: 100px;
+    height: 100px;
+  }
+  .sofocles--img--pag {
+    width: 100px;
+    height: 100px;
+  }
+  .amanecer--img--pag {
+    width: 100px;
+    height: 100px;
+  }
+  .quien--soy--img {
+    width: 100px;
+    height: 100px;
+  }
+  .mis--trabajos--p {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    font-size: large;
+  }
+}
+@media screen and (max-width: 600px) {
+  .li {
+    width: 100%;
+  }
+  .amanecer--h3 {
+    margin-right: 30px;
+  }
+  .rev--h3 {
+    justify-content: center;
+  }
+  .sofocles--h3 {
+    justify-content: center;
+  }
+  .amanecer {
+    justify-content: center;
+  }
+  .sofocles {
+    justify-content: center;
+  }
+  .neron {
+    justify-content: center;
+  }
+  .rev {
+    justify-content: center;
+  }
+  .amanecer--P {
+    justify-content: center;
+  }
+  .sofocles--P {
+    justify-content: center;
+  }
+  .neron--P {
+    justify-content: center;
+  }
+  .rev--P {
+    justify-content: center;
+  }
+  .boton--2 {
+    align-items: center;
+  }
+  .boton--4 {
+    align-items: center;
+  }
+  .encuentro--1--2 {
+    display: grid;
+    grid-column: 100%;
+    grid-template-areas: "H1" "img1" "P1" "btn1" "H2" "img2" "P2" "btn2";
+  }
+  .encuentro--3--4 {
+    display: grid;
+    grid-column: 100%;
+    grid-template-areas: "H3" "img3" "P3" "btn3" "H4" "img4" "P4" "btn4";
+  }
+  .SOFOCLES {
+    left: 50px;
+    position: unset;
+  }
+  .AMANECER {
+    position: relative;
+    left: 50px;
+  }
+  .NERON {
+    position: relative;
+    left: 50px;
+  }
+  .REV {
+    left: 50px;
+    position: unset;
+  }
+  .amanecer--p--img--pag {
+    display: block;
+  }
+  .sofocles--p--img--pag {
+    display: block;
+  }
+  .neron--p--img--pag {
+    display: block;
+  }
+  .rev--p--img--pag {
+    display: block;
+  }
+  .amanecer--P--pag {
+    margin: 0px 30px;
+  }
+  .sofocles--P--pag {
+    margin: 0px 30px;
+  }
+  .neron--P--pag {
+    margin: 0px 30px;
+  }
+  .rev--P--pag {
+    margin: 0px 30px;
+  }
+  .quien--soy--p {
+    margin: 0px 30px;
+    font-size: large;
+  }
+  .quien--soy {
+    display: block;
+  }
+  .quien--soy--img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

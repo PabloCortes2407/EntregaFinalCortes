@@ -1,11 +1,11 @@
 
 .titulo {
-    font-size: calc($medida-predeterimnada/4-20);
+    font-size: calc($medida-predeterimnada/4 - 20px);
     text-align: center;
 }
 
 .subtitulo {
-    font-size: calc($medida-predeterimnada/4-20);
+    font-size: calc($medida-predeterimnada/4 - 20px);
     text-align: center;
 }
 
@@ -27,14 +27,14 @@
 }
 
 .amanecer--P {
-    block-size: calc($medida-predeterimnada*2+50);
+    block-size: calc($medida-predeterimnada*2 + 50px);
     width: $medida-predeterimnada; 
     border: solid black 1px; 
     grid-area: P1;
 }
 
 .sofocles--P {
-    block-size: calc($medida-predeterimnada*2+50);
+    block-size: calc($medida-predeterimnada*2 + 50px);
     width: $medida-predeterimnada; 
     border: solid black 1px;
     grid-area: P2;
@@ -42,14 +42,14 @@
 
 
 .neron--P {
-    block-size: calc($medida-predeterimnada*2+50); 
+    block-size: calc($medida-predeterimnada*2 + 50px); 
     width: $medida-predeterimnada; 
     border: solid black 1px; 
     grid-area: P3;
 }
 
 .rev--P {
-    block-size: calc($medida-predeterimnada*2+50);
+    block-size: calc($medida-predeterimnada*2 + 50px);
     width: $medida-predeterimnada; 
     border: solid black 1px; 
    grid-area: P4;
@@ -58,9 +58,9 @@
 .nuestro__lugar {
     text-align: justify; 
     position: relative;
-    margin-left: calc($medida-predeterimnada/2+50);
-    margin-right: calc($medida-predeterimnada/2+50);
-    font-size:  calc($medida-predeterimnada/10+2);
+    margin-left: calc($medida-predeterimnada/2 + 50px);
+    margin-right: calc($medida-predeterimnada/2 + 50px);
+    font-size:  calc($medida-predeterimnada/10 + 2px);
 }
 
 .amistades--p--h {
@@ -69,15 +69,15 @@
 
 .amanecer--P--pag {
     text-align: center;
-    font-size: calc($medida-predeterimnada/4-20);
+    font-size: calc($medida-predeterimnada/4 - 20px);
     font-family: sans-serif;
-    margin-right: calc($medida-predeterimnada/4);
-    margin-left: calc($medida-predeterimnada/4);
+    margin-right: calc($medida-predeterimnada/4px);
+    margin-left: calc($medida-predeterimnada/4px);
     }
     
     .sofocles--P--pag {
         text-align: center;
-        font-size: calc($medida-predeterimnada/4-20);
+        font-size: calc($medida-predeterimnada/4 - 20px);
         font-family: sans-serif;
         margin-right: calc($medida-predeterimnada/2);
         margin-left: calc($medida-predeterimnada/2);
@@ -85,15 +85,15 @@
     
     .neron--P--pag {
         text-align: center;
-        font-size: calc($medida-predeterimnada/4-20);
+        font-size: calc($medida-predeterimnada/4 - 20px);
         font-family: sans-serif;
         margin-right: calc($medida-predeterimnada/2);
         margin-left: calc($medida-predeterimnada/2);
     }
     
     .rev--P--pag {
-        text-align: center;
-        font-size: calc($medida-predeterimnada/4-20);
+        text-align: center; 
+        font-size: calc($medida-predeterimnada/4 - 20px);
         font-family: sans-serif;
         margin-right: calc($medida-predeterimnada/2);
         margin-left: calc($medida-predeterimnada/2);
@@ -101,7 +101,7 @@
     
 .titulo--pag {
     text-align: center;
-    font-size: calc($medida-predeterimnada/4-10);
+    font-size: calc($medida-predeterimnada/4 - 10px);
 }
 
 .h1--quien--soy {
@@ -115,25 +115,25 @@
 
 .quien--soy--h1 {
     text-align: center;
-    font-size: calc($medida-predeterimnada/4-10);
+    font-size: calc($medida-predeterimnada/4 - 10px);
 }
 
 .quien--soy--p {
     text-align: center;
-    font-size: calc($medida-predeterimnada/4-10);
+    font-size: calc($medida-predeterimnada/4 - 10px);
     font-family: sans-serif;
-    margin-right: calc($medida-predeterimnada/2);
-    margin-left: calc($medida-predeterimnada/2);
+    margin-right: calc($medida-predeterimnada/2px);
+    margin-left: calc($medida-predeterimnada/2px);
 }
 
 .mis--trabajos--h1 {
     text-align: center;
-    font-size: calc($medida-predeterimnada/4-10);
+    font-size: calc($medida-predeterimnada/4 - 10px);
 }
 
 .mis--trabajos--p {    
     text-align: center;
-    font-size: calc($medida-predeterimnada/4-20);
+    font-size: calc($medida-predeterimnada/4 - 20px);
     font-family: sans-serif;
     margin-right: calc($medida-predeterimnada/2);
     margin-left: calc($medida-predeterimnada/2);

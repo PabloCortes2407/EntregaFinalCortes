@@ -6,7 +6,7 @@ width: 50%;
     }
 
 .AMANECER {
-    left: calc($medida-predeterimnada/4+20);
+    left: calc($medida-predeterimnada/4 + 20px);
 }
 
 .SOFOCLES {
@@ -18,7 +18,7 @@ width: 50%;
 }
 
 .NERON {
-    left: calc($medida-predeterimnada/4+20);
+    left: calc($medida-predeterimnada/4 + 20px);
 }
 
 .rev--h3 {
@@ -101,6 +101,18 @@ margin-right: 0px;
         width: calc($medida-predeterimnada/2);
         height: calc($medida-predeterimnada/2);
     }
+
+    .quien--soy--img {
+        width: calc($medida-predeterimnada/2);
+        height: calc($medida-predeterimnada/2);
+    }
+
+    .mis--trabajos--p {
+        margin-left: calc($medida-predeterimnada/4);
+        margin-right: calc($medida-predeterimnada/4);
+        text-align: center;
+        font-size: large;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -109,7 +121,7 @@ margin-right: 0px;
     }
    
     .amanecer--h3 {
-     margin-right: calc($medida-predeterimnada/4-20);
+     margin-right: calc($medida-predeterimnada/4 - 20px);
     }
     
 .rev--h3 {
@@ -224,18 +236,32 @@ justify-content: center;
     }
 
     .amanecer--P--pag {
-        margin: 0px calc($medida-predeterimnada/4-20);
+        margin: 0px calc($medida-predeterimnada/4 - 20px);
     }
 
     .sofocles--P--pag {
-        margin: 0px calc($medida-predeterimnada/4-20);
+        margin: 0px calc($medida-predeterimnada/4 - 20px);
     }
 
-    .neron--P--pag {
-        margin: 0px calc($medida-predeterimnada/4-20);
+    .neron--P--pag { 
+        margin: 0px calc($medida-predeterimnada/4 - 20px);
     }
 
     .rev--P--pag {
-        margin: 0px calc($medida-predeterimnada/4-20);
+        margin: 0px calc($medida-predeterimnada/4 - 20px);
+    }
+
+    .quien--soy--p {
+        margin: 0px calc($medida-predeterimnada/4 - 20px);
+        font-size: large;
+      }
+  
+      .quien--soy {
+  display: block;
+      }
+
+      .quien--soy--img {
+        width: calc($medida-predeterimnada/2);
+        height: calc($medida-predeterimnada/2);
     }
 }
