@@ -49,21 +49,25 @@ margin-right: 0px;
     }
 
     .amanecer--P {
+        text-align: unset;
     margin-right: calc($medida-predeterimnada/4);
 margin-left: 0px;
     }
 
     .sofocles--P {
+        text-align: unset;
         margin-left: calc($medida-predeterimnada/4);
 margin-right: 0px;
     }
 
     .neron--P {
+        text-align: unset;
         margin-right: calc($medida-predeterimnada/4);
         margin-left: 0px;
     }
 
     .rev--P {
+        text-align: unset;
         margin-left: calc($medida-predeterimnada/4);
 margin-right: 0px;
     }
@@ -83,6 +87,7 @@ margin-right: 0px;
     }
 
     .rev--img--pag {
+        text-align: unset;
         width: calc($medida-predeterimnada/2);
         height: calc($medida-predeterimnada/2);
     }
@@ -108,6 +113,7 @@ margin-right: 0px;
     }
 
     .mis--trabajos--p {
+        text-align: unset;
         margin-left: calc($medida-predeterimnada/4);
         margin-right: calc($medida-predeterimnada/4);
         text-align: center;
@@ -148,18 +154,22 @@ justify-content: center;
     }
 
     .amanecer--P {
+        text-align: unset;
 justify-content: center;
     }
 
     .sofocles--P {
+        text-align: unset;
         justify-content: center;
     }
 
     .neron--P {
+        text-align: unset;
         justify-content: center;
     }
 
     .rev--P {
+        text-align: unset;
         justify-content: center;
     }
 
@@ -236,22 +246,27 @@ justify-content: center;
     }
 
     .amanecer--P--pag {
+        text-align: unset;
         margin: 0px calc($medida-predeterimnada/4 - 20px);
     }
 
     .sofocles--P--pag {
+        text-align: unset;
         margin: 0px calc($medida-predeterimnada/4 - 20px);
     }
 
     .neron--P--pag { 
+        text-align: unset;
         margin: 0px calc($medida-predeterimnada/4 - 20px);
     }
 
     .rev--P--pag {
+        text-align: unset;
         margin: 0px calc($medida-predeterimnada/4 - 20px);
     }
 
     .quien--soy--p {
+        text-align: unset;
         margin: 0px calc($medida-predeterimnada/4 - 20px);
         font-size: large;
       }

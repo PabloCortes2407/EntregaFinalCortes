@@ -1,5 +1,18 @@
+.amanecer--h3 { 
+    grid-area: H1;
+}
 
-.encuentro--1--2 {
+.sofocles--h3 {
+    grid-area: H2;
+}
+
+.neron--h3 {
+    grid-area: H3;
+}
+
+.rev--h3 {
+    grid-area: h4;
+}.encuentro--1--2 {
     display: grid;
     grid-column: 50% 50%;
     grid-template-areas: 
