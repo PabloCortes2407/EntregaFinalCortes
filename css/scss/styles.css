@@ -143,6 +143,10 @@
   margin-left: 50;
 }
 
+.amistades--h {
+  font-size: medium;
+}
+
 .sofocles--P--pag {
   text-align: justify;
   font-size: 30px;
@@ -316,20 +320,24 @@
   background-color: darkgreen;
 }
 
-.amanecer--h3 {
+.amanecer--h1 {
   grid-area: H1;
+  font-size: medium;
 }
 
-.sofocles--h3 {
+.sofocles--h1 {
   grid-area: H2;
+  font-size: medium;
 }
 
-.neron--h3 {
+.neron--h1 {
   grid-area: H3;
+  font-size: medium;
 }
 
-.rev--h3 {
+.rev--h1 {
   grid-area: h4;
+  font-size: medium;
 }
 
 .encuentro--1--2 {
