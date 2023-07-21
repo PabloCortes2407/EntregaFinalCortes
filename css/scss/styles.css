@@ -520,18 +520,22 @@
   .amanecer--P {
     text-align: unset;
     justify-content: center;
+    block-size: 600px;
   }
   .sofocles--P {
     text-align: unset;
     justify-content: center;
+    block-size: 600px;
   }
   .neron--P {
     text-align: unset;
     justify-content: center;
+    block-size: 600px;
   }
   .rev--P {
     text-align: unset;
     justify-content: center;
+    block-size: 600px;
   }
   .boton--2 {
     align-items: center;
