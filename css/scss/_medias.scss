@@ -21,6 +21,14 @@ width: 50%;
     left: calc($medida-predeterimnada/4 + 20px);
 }
 
+.sofocles--h1 {
+    margin-left: 50px;
+}
+
+.rev--h1 {
+    margin-left: 50px; 
+}
+
 .rev--h3 {
     margin-left: calc($medida-predeterimnada/4);
 }
@@ -48,35 +56,23 @@ margin-left: 0px;
 margin-right: 0px;
     }
 
-    .amanecer--P {
+    .texto--1--3 {
         text-align: unset;
     margin-right: calc($medida-predeterimnada/4);
 margin-left: 0px;
     }
-
-    .sofocles--P {
+    .texto--2--4 {
         text-align: unset;
-        margin-left: calc($medida-predeterimnada/4);
-margin-right: 0px;
+    margin-right: calc($medida-predeterimnada/4);
+margin-left: 50px;
     }
 
-    .neron--P {
-        text-align: unset;
-        margin-right: calc($medida-predeterimnada/4);
-        margin-left: 0px;
-    }
-
-    .rev--P {
-        text-align: unset;
-        margin-left: calc($medida-predeterimnada/4);
-margin-right: 0px;
-    }
-
-    .boton--2 {
+    .boton--1--3 {
+        margin: 0;
         margin-left: calc($medida-predeterimnada/4);
     } 
 
-    .boton--4 {
+    .boton--2--4 {
         margin-left: calc($medida-predeterimnada/4);
     }
 
@@ -153,35 +149,24 @@ justify-content: center;
         justify-content: center;
     }
 
-    .amanecer--P {
+    .texto--1--3 {
         text-align: unset;
-justify-content: center;
-block-size: calc($medida-predeterimnada*3);
+    margin-right: calc($medida-predeterimnada/4);
+margin-left: 0px;
     }
 
-    .sofocles--P {
+    .texto--2--4 {
         text-align: unset;
-        justify-content: center;
-        block-size: calc($medida-predeterimnada*3);
+    margin-right: calc($medida-predeterimnada/4);
+margin-left: 50px;
     }
 
-    .neron--P {
-        text-align: unset;
-        justify-content: center;
-        block-size: calc($medida-predeterimnada*3);
-    }
-
-    .rev--P {
-        text-align: unset;
-        justify-content: center;
-        block-size: calc($medida-predeterimnada*3);
-    }
-
-    .boton--2 {
+    .boton--1--3 {
         align-items: center;
+        margin: 0;
     } 
 
-    .boton--4 {
+    .boton--2--4 {
         align-items: center;
     }
 

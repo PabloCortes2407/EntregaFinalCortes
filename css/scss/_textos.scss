@@ -9,37 +9,22 @@
     text-align: center;
 }
 
-.amanecer--P {
+.texto--1--3 {
     text-align: justify; 
     block-size: calc($medida-predeterimnada*2 + 50px);
     width: $medida-predeterimnada; 
     border: solid black 1px; 
     grid-area: P1;
+    padding: 5px;
 }
 
-.sofocles--P {
-    text-align: justify; 
-    block-size: calc($medida-predeterimnada*2 + 50px);
-    width: $medida-predeterimnada; 
-    border: solid black 1px;
-    grid-area: P2;
-}
-
-
-.neron--P {
-    text-align: justify; 
-    block-size: calc($medida-predeterimnada*2 + 50px); 
-    width: $medida-predeterimnada; 
-    border: solid black 1px; 
-    grid-area: P3;
-}
-
-.rev--P {
+.texto--2--4 {
     text-align: justify; 
     block-size: calc($medida-predeterimnada*2 + 50px);
     width: $medida-predeterimnada; 
     border: solid black 1px; 
-   grid-area: P4;
+    grid-area: P1;
+    padding: 5px;
 }
 
 .nuestro__lugar {

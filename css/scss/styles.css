@@ -91,36 +91,22 @@
   text-align: center;
 }
 
-.amanecer--P {
+.texto--1--3 {
   text-align: justify;
   block-size: 450px;
   width: 200px;
   border: solid black 1px;
   grid-area: P1;
+  padding: 5px;
 }
 
-.sofocles--P {
+.texto--2--4 {
   text-align: justify;
   block-size: 450px;
   width: 200px;
   border: solid black 1px;
-  grid-area: P2;
-}
-
-.neron--P {
-  text-align: justify;
-  block-size: 450px;
-  width: 200px;
-  border: solid black 1px;
-  grid-area: P3;
-}
-
-.rev--P {
-  text-align: justify;
-  block-size: 450px;
-  width: 200px;
-  border: solid black 1px;
-  grid-area: P4;
+  grid-area: P1;
+  padding: 5px;
 }
 
 .nuestro__lugar {
@@ -210,7 +196,7 @@
   margin-left: 100px;
 }
 
-.boton--1 {
+.boton--1--3 {
   border: none;
   min-width: 100px;
   height: 50px;
@@ -224,15 +210,14 @@
   align-items: center;
   background: blue;
   text-decoration: none;
-  grid-area: btn1;
 }
 
-.boton--1:hover {
+.boton--1--3:hover {
   background: darkblue;
   text-decoration: underline;
 }
 
-.boton--2 {
+.boton--2--4 {
   border: none;
   min-width: 100px;
   height: 50px;
@@ -246,54 +231,9 @@
   align-items: center;
   background: blue;
   text-decoration: none;
-  grid-area: btn2;
 }
 
-.boton--2:hover {
-  background: darkblue;
-  text-decoration: underline;
-}
-
-.boton--3 {
-  border: none;
-  min-width: 100px;
-  height: 50px;
-  padding: 0px 30px;
-  background-color: rgb(0, 0, 0);
-  color: white;
-  display: inline-block;
-  border-radius: 100px;
-  display: inline-flex;
-  justify-content: space-between;
-  align-items: center;
-  background: blue;
-  text-decoration: none;
-  grid-area: btn3;
-}
-
-.boton--3:hover {
-  background: darkblue;
-  text-decoration: underline;
-}
-
-.boton--4 {
-  border: none;
-  min-width: 100px;
-  height: 50px;
-  padding: 0px 30px;
-  background-color: rgb(0, 0, 0);
-  color: white;
-  display: inline-block;
-  border-radius: 100px;
-  display: inline-flex;
-  justify-content: space-between;
-  align-items: center;
-  background: blue;
-  text-decoration: none;
-  grid-area: btn4;
-}
-
-.boton--4:hover {
+.boton--2--4:hover {
   background: darkblue;
   text-decoration: underline;
 }
@@ -410,6 +350,12 @@
   .NERON {
     left: 70px;
   }
+  .sofocles--h1 {
+    margin-left: 50px;
+  }
+  .rev--h1 {
+    margin-left: 50px;
+  }
   .rev--h3 {
     margin-left: 50px;
   }
@@ -432,30 +378,21 @@
     margin-left: 50px;
     margin-right: 0px;
   }
-  .amanecer--P {
+  .texto--1--3 {
     text-align: unset;
     margin-right: 50px;
     margin-left: 0px;
   }
-  .sofocles--P {
-    text-align: unset;
-    margin-left: 50px;
-    margin-right: 0px;
-  }
-  .neron--P {
+  .texto--2--4 {
     text-align: unset;
     margin-right: 50px;
-    margin-left: 0px;
-  }
-  .rev--P {
-    text-align: unset;
-    margin-left: 50px;
-    margin-right: 0px;
-  }
-  .boton--2 {
     margin-left: 50px;
   }
-  .boton--4 {
+  .boton--1--3 {
+    margin: 0;
+    margin-left: 50px;
+  }
+  .boton--2--4 {
     margin-left: 50px;
   }
   .nuestro__lugar {
@@ -517,30 +454,21 @@
   .rev {
     justify-content: center;
   }
-  .amanecer--P {
+  .texto--1--3 {
     text-align: unset;
-    justify-content: center;
-    block-size: 600px;
+    margin-right: 50px;
+    margin-left: 0px;
   }
-  .sofocles--P {
+  .texto--2--4 {
     text-align: unset;
-    justify-content: center;
-    block-size: 600px;
+    margin-right: 50px;
+    margin-left: 50px;
   }
-  .neron--P {
-    text-align: unset;
-    justify-content: center;
-    block-size: 600px;
-  }
-  .rev--P {
-    text-align: unset;
-    justify-content: center;
-    block-size: 600px;
-  }
-  .boton--2 {
+  .boton--1--3 {
     align-items: center;
+    margin: 0;
   }
-  .boton--4 {
+  .boton--2--4 {
     align-items: center;
   }
   .encuentro--1--2 {
