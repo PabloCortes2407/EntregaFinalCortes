@@ -153,12 +153,14 @@ justify-content: center;
         text-align: unset;
     margin-right: calc($medida-predeterimnada/4);
 margin-left: 0px;
+block-size: calc($medida-predeterimnada*3);
     }
 
     .texto--2--4 {
 text-align: unset;
 margin-right: calc($medida-predeterimnada/4);
 margin-left: 50px;
+block-size: calc($medida-predeterimnada*3);
     }
 
     .boton--1--3 {
