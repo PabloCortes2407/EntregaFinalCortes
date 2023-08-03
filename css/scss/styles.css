@@ -476,30 +476,13 @@
   .encuentro--1--2 {
     display: grid;
     grid-column: 100%;
-    grid-template-areas: 
-    "H1" 
-    "img1" 
-    "P1" 
-    "btn1" 
-    "H2" 
-    "img2" 
-    "P2" 
-    "btn2";
+    grid-template-areas: "H1" "img1" "P1" "btn1" "H2" "img2" "P2" "btn2";
   }
   .encuentro--3--4 {
     display: grid;
     grid-column: 100%;
-    grid-template-areas: 
-    "H3" 
-    "img3" 
-    "P3" 
-    "btn3" 
-    "H4" 
-    "img4" 
-    "P4" 
-    "btn4";
+    grid-template-areas: "H3" "img3" "P3" "btn3" "H4" "img4" "P4" "btn4";
   }
-
   .SOFOCLES {
     left: 50px;
     position: unset;
@@ -557,4 +540,5 @@
     height: 100px;
   }
 }
+
 /*# sourceMappingURL=styles.css.map */
